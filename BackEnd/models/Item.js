@@ -7,6 +7,4 @@ const ItemSchema = new mongoose.Schema({
   duplicates: Number,
 });
 
-const Item = mongoose.model("Item", ItemSchema);
-
-module.exports = Item;
+module.exports = ItemSchema;
